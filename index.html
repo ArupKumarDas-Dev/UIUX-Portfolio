@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arup's UI/UX Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="hero-section">
+        <div class="video-background-container">
+            <video id="bg-video" loop muted autoplay playsinline poster="#your-poster-image.jpg">
+            </video>
+        </div>
+        <div class="hero-content glassmorphic-card">
+            <h1 class="hero-title">I am a <span class="gradient-text">UI/UX Developer</span></h1>
+            <p class="hero-subtitle">Crafting intuitive and engaging digital experiences.</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="profile-pic-container">
+                    <img src="public/profile-pic.png" alt="Arup Das" class="profile-pic">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm Arup, a passionate UI/UX Developer with a keen eye for aesthetics and a drive to
+                        create seamless user experiences. I bridge the gap between design and development, bringing
+                        concepts to life with clean code and thoughtful design.</p>
+                    <p>I specialize in web design, web development, UI design, and freelance 3D design using Blender. My
+                        goal is to build digital products that are not only functional but also delightful to interact
+                        with.</p>
+                </div>
+            </div>
+            <h3>My Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-figma skill-icon"></i><br>
+                    <span>Figma</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-brush skill-icon"></i> <br><span>Canva & Photoshop</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-html5 skill-icon"></i><br>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt skill-icon"></i><br>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js-square skill-icon"></i><br>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-cube skill-icon"></i><br>
+                    <span>Blender 3D</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card glassmorphic-card">
+                    <img src="public/bloggingPlatform.png" alt="Ap Blogs UI" class="project-image">
+                    <h3>Ap Blogs - Publishing Platform</h3>
+                    <p>A sleek UI design for a professional blogging platform.</p>
+                    <a href="case-study-1.html" class="btn primary-btn">View Case Study</a>
+                </div>
+
+                <div class="project-card glassmorphic-card">
+                    <img src="public/CheckoutPage.png" alt="Checkout UI" class="project-image">
+                    <h3>E-commerce Checkout Flow</h3>
+                    <p>Intuitive and secure checkout experience design.</p>
+                    <a href="case-study-2.html" class="btn primary-btn">View Case Study</a>
+                </div>
+
+                <div class="project-card glassmorphic-card">
+                    <img src="public/DayPlanner.png" alt="Day Planner UI" class="project-image">
+                    <h3>Day Planner App UI</h3>
+                    <p>Minimalist and functional design for a daily task organizer.</p>
+                    <a href="case-study-3.html" class="btn primary-btn">View Case Study</a>
+                </div>
+
+                <div class="project-card glassmorphic-card">
+                    <img src="public/HeadphonePage.png" alt="Headphones E-commerce UI" class="project-image">
+                    <h3>Headphones E-commerce</h3>
+                    <p>Modern product showcase and e-commerce UI.</p>
+                    <a href="case-study-4.html" class="btn primary-btn">View Case Study</a>
+                </div>
+
+                <div class="project-card glassmorphic-card">
+                    <img src="public/HotelPage.png" alt="Hotel Savannah Landing Page" class="project-image">
+                    <h3>Hotel Savannah - Landing Page</h3>
+                    <p>An inviting and luxurious landing page for a hotel.</p>
+                    <a href="case-study-5.html" class="btn primary-btn">View Case Study</a>
+                </div>
+
+                <div class="project-card glassmorphic-card">
+                    <img src="public/Login_page.png" alt="Project Nebula Signup UI" class="project-image">
+                    <h3>Project Nebula - Signup Form</h3>
+                    <p>Engaging signup experience with a cosmic theme.</p>
+                    <a href="case-study-6.html" class="btn primary-btn">View Case Study</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Get in Touch</h2>
+            <div class="contact-container">
+                <form class="contact-form glassmorphic-card">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary-btn" aria-label="Submit form">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <a href="your-cv.pdf" download class="btn primary-btn download-cv-btn">Download My CV <i
+                            class="fas fa-download"></i></a>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/arup-kumar-das-85952a273/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/ArupKumarDas-Dev" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/_azazel_6.6.6/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="current-year"></span> Arup Das. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
