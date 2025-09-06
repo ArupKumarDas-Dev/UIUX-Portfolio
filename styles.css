@@ -40,6 +40,14 @@ body {
     object-fit: cover; /* This is the magic part! */
                       /* It scales the video to cover the entire container, cropping as needed, without distorting the aspect ratio. */
 }
+
+.logo{
+    position: absolute;
+    margin: auto;
+    margin-bottom: 90vh;
+    margin-right: 80vw;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     color: var(--text-primary);
