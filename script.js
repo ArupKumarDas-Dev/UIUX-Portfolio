@@ -105,7 +105,6 @@ document.addEventListener('DOMContentLoaded', () => {
         navObserver.observe(heroSection);
     }
 });
-
       const scriptURL =
         "https://script.google.com/macros/s/AKfycbz-BOgDg2jFaNVYKCsAv0Rj1-OZpJ_v7B3ZUVQG5MIDKTTXn0J-HlTxzUII8aA3XKFSDw/exec";
       const form = document.forms["submit-to-google-sheet"];
